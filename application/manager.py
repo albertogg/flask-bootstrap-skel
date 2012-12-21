@@ -11,4 +11,4 @@ def hello():
 
 @app.route('/hello/<username>')
 def hello_username(username):
-    return "Hello %s!" % username
+    return "Hello %s" % username

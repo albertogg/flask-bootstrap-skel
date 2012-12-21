@@ -1,6 +1,4 @@
-from application import app
-import unittest
-
+from tests.manage_tests import *
 
 if __name__ == '__main__':
     unittest.main()
