@@ -1,7 +1,7 @@
 Flask-Bootstrap
 ---
 
-Is a skeleton of a "Large" Flask application with the integration of Twitter bootstrap.
+Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
 
 Getting started
 ---
