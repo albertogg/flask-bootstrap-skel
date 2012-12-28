@@ -24,14 +24,10 @@ Start the server:
 $ python runserver.py
 ~~~
 
-Open the browser in localhost port 5000:
+Open the browser; localhost:5000 or with the terminal(OS X):
 
 ~~~
 open http://localhost:5000
-
-or
-
-open http://localhost:5000/hello/<yourname>
 ~~~
 
 Initialize db
