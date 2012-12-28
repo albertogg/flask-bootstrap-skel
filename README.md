@@ -20,7 +20,7 @@ $ pip install -r requirements.txt
 
 Start the server:
 
-~~~
+~~~ sh
 $ python runserver.py
 ~~~
 
@@ -42,7 +42,7 @@ Unit testing
 
 Add unittests to the manage_tests.py file and then start running the tests:
 
-~~~
+~~~ sh
 $ python runtests.py
 ~~~
 
@@ -55,8 +55,14 @@ To activate the production configuration; export the variable:
 export PRODUCTION_SETTINGS=/path/to/production.cfg
 ~~~
 
+
 Changelog
 ---
+**v0.2 / 2012/12/28**
+  * Add Unittests
+  * License
+  * Configuration files
+  * index.html template
 
 **v0.1 / 2012/12/22**
   * Create Flask-Bootstrap skeleton.
@@ -68,3 +74,4 @@ ToDo
 
 * Add a better template.
 * Add error pages.
+* More...
