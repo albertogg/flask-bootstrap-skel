@@ -12,7 +12,7 @@ class ManagerTestCase(unittest.TestCase):
 
     def test_username(self):
         rv = self.t_username('alberto')
-        assert "Hello alberto" in rv.data
+        assert "Hello, alberto" in rv.data
 
     def test_empty_db(self):
         rv = self.app.get('/')

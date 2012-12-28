@@ -6,9 +6,9 @@ from application.models import *
 @app.route('/')
 @app.route('/index')
 def hello():
-    return render_template('info/index.html', title='Change title')
+    return render_template('info/index.html', title='Flask-Bootstrap')
 
 
 @app.route('/hello/<username>')
 def hello_username(username):
-    return "Hello %s" % username
+    return render_template('info/hello.html', title="Flask-Bootstrap, Hi %s" % (username), username=username)
