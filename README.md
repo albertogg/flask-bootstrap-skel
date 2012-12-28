@@ -24,7 +24,7 @@ Start the server:
 $ python runserver.py
 ~~~
 
-Open the browser; localhost:5000 or with the terminal(OS X):
+Open the browser; `http://localhost:5000` or with the terminal(OS X):
 
 ~~~
 open http://localhost:5000
@@ -79,4 +79,8 @@ ToDo
 
 * Add a better template.
 * Add error pages.
+* gunicorn ready.
+* support for many db's.
+* fabric scripts.
+* shell.py
 * More...
