@@ -3,6 +3,10 @@ Flask-Bootstrap
 
 Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
 
+Requirements
+---
+* Python 2.7
+
 Getting started
 ---
 
@@ -21,13 +25,15 @@ $ pip install -r requirements.txt
 Start the server:
 
 ~~~ sh
-$ python runserver.py
+$ fab run
+or
+$ fab grun # for gunicorn server
 ~~~
 
 Open the browser; `http://localhost:5000` or with the terminal(OS X):
 
-~~~
-open http://localhost:5000
+~~~ sh
+$ open http://localhost:5000
 ~~~
 
 Initialize db
@@ -48,7 +54,7 @@ Unit testing
 Add unittests to the manage_tests.py file and then start running the tests:
 
 ~~~ sh
-$ python runtests.py
+$ fab tests
 ~~~
 
 Production.cfg
@@ -57,7 +63,7 @@ Production.cfg
 To activate the production configuration; export the variable:
 
 ~~~ sh
-export PRODUCTION_SETTINGS=/path/to/production.cfg
+$ export PRODUCTION_SETTINGS=/path/to/production.cfg
 ~~~
 
 
@@ -79,7 +85,6 @@ ToDo
 
 * Add a better template.
 * Add error pages.
-* gunicorn ready.
 * support for many db's.
 * fabric scripts.
 * shell.py
