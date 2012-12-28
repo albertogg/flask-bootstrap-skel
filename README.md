@@ -3,6 +3,27 @@ Flask-Bootstrap
 
 Is a skeleton of a "Large" Flask application with the integration of Twitter bootstrap.
 
+Getting started
+---
+
+Clone the repo to your computer in the desired folder:
+
+~~~ sh
+$ git clone https://github.com/albertogg/flask-bootstrap.git
+~~~
+
+Use the requirements.txt to start dependencies in your virtualenv:
+
+~~~ sh
+$ pip install -r requirements.txt
+~~~
+
+Start the server:
+
+~~~
+$ python runserver.py
+~~~
+
 
 Initialize db
 ---
@@ -16,10 +37,19 @@ Set the db parameters in the default_settings.py or in the production.cfg file a
 
 ***note: You must first create the database in Postgresql***
 
+Unit testing
+---
+
+Add unittests to the manage_tests.py file and then start running the tests:
+
+~~~
+$ python runtests.py
+~~~
+
 Production.cfg
 ---
 
-To activate the production configuration, it has to be exported as a variable.
+To activate the production configuration; export the variable:
 
 ~~~ sh
 export PRODUCTION_SETTINGS=/path/to/production.cfg
@@ -36,4 +66,5 @@ Changelog
 ToDo
 ---
 
-* Add template.
+* Add a better template.
+* Add error pages.
