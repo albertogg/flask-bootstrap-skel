@@ -16,4 +16,10 @@ def grun():
 # run tests
 def tests():
     """ Run unittests """
-    local('python runtests.py')
+    local('python runtests.py --verbose')
+
+
+# start iteractive shell within the flask environment
+def shell():
+    """ Start interactive shell within flask environment """
+    local('python shell.py')

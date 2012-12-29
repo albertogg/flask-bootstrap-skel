@@ -11,19 +11,7 @@
   <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar navbar-static-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="#">Flask-Boostrap</a>
-        <ul class="nav">
-          <li><a href="http://flask.pocoo.org/">Flask docs</a></li>
-          <li><a href="http://twitter.github.com/bootstrap/index.html">Twitter-bootstrap</a></li>
-          <li><a href="https://github.com/albertogg/flask-bootstrap">Github</a></li>
-          <li><a href="http://docs.sqlalchemy.org/en/rel_0_8">SQLAlchemy docs</a> </li>
-        </ul>
-      </div> <!-- container -->
-    </div> <!-- navbar-inner -->
-  </div> <!-- navbar navbar-static-top -->
+  {% include 'header.html' %}
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span6 offset3">

@@ -39,11 +39,13 @@ $ open http://localhost:5000
 Initialize db
 ---
 
-Set the db parameters in the default_settings.py or in the production.cfg file and then go to the interactive python shell and run:
+Set the db parameters in the default_settings.py or in the production.cfg file and start python interactive shell within the flask environment:
 
-~~~
+~~~ sh
+$ fab shell
 >>> from application import db
 >>> db.create_all()
+>>> exit()
 ~~~
 
 ***note: You must first create the database in Postgresql***
@@ -87,5 +89,4 @@ ToDo
 * Add error pages.
 * support for many db's.
 * fabric scripts.
-* shell.py
 * More...

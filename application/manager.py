@@ -11,4 +11,5 @@ def hello():
 
 @app.route('/hello/<username>')
 def hello_username(username):
-    return render_template('info/hello.html', title="Flask-Bootstrap, Hi %s" % (username), username=username)
+    return render_template('info/hello.html', title="Flask-Bootstrap, Hi %s"
+                            % (username), username=username)
