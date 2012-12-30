@@ -6,6 +6,7 @@ Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
 Requirements
 ---
 * Python 2.7
+* Sqlite
 
 Getting started
 ---
