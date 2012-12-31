@@ -44,7 +44,6 @@ Set the db parameters in the default_settings.py or in the production.cfg file a
 
 ~~~ sh
 $ fab shell
->>> from application import db
 >>> db.create_all()
 >>> exit()
 ~~~
