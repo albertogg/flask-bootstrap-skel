@@ -9,7 +9,7 @@ class ManagerTestCase(unittest.TestCase):
 
     def setUp(self):
         app.config['TESTING'] = True
-        app.config['SQLALCHEMY_DATABASE_URI'] = ('sqlite:////'
+        app.config['SQLALCHEMY_DATABASE_URI'] = ('sqlite:///'
                                     + os.path.join(_basedir, 'db/tests.db'))
         self.app = app.test_client()
         db.create_all()
