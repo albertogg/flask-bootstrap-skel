@@ -6,8 +6,6 @@ env:
   - DB=sqlite
 install:
   - "pip install -r requirements.txt --use-mirrors"
-  - "fab shell"
-  - "exit()"
 # command to run tests
 script: fab tests
 notifications:
