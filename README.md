@@ -3,6 +3,11 @@ Flask-Bootstrap
 
 Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
 
+Code Status
+---
+[![Build Status](https://travis-ci.org/albertogg/flask-bootstrap.png)](https://travis-ci.org/albertogg/flask-bootstrap)
+
+
 Requirements
 ---
 * Python 2.7 or 2.6
