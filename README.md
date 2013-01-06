@@ -5,8 +5,9 @@ Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
 
 Requirements
 ---
-* Python 2.7
+* Python 2.7 or 2.6
 * Sqlite
+* pip
 
 Getting started
 ---
@@ -71,6 +72,13 @@ $ export PRODUCTION_SETTINGS=/path/to/production.cfg
 
 Changelog
 ---
+**v0.3 / 2013/01/06**
+  * Python 2.6 support.
+  * Shell script.
+  * gunicorn ready.
+  * Sqlite ready for dev/testing environment.
+  * db directory for Sqlite db's
+
 **v0.2 / 2012/12/28**
   * Add Unittests
   * License
@@ -85,8 +93,8 @@ Changelog
 ToDo
 ---
 * Add support for multiple python versions.
+* Add a mock library for testing
 * Add a better template.
 * Add error pages.
 * support for many db's.
-* fabric scripts.
 * More...
