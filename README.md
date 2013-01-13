@@ -2,7 +2,7 @@ Flask-Bootstrap
 ---
 
 Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
-![Index pic](http://imgur.com/1NWEt)
+![Index pic](http://i.imgur.com/1NWEt.png "index")
 
 Code Status
 ---
