@@ -34,4 +34,6 @@ class OriginalRoutes(ManagerTestCase):
 
     def test_index(self):
         rv = self.app.get('/')
-        assert 'hi' in rv.data
+        assert 'Flask bootstrap project' in rv.data
+        assert 'Flask-bootstrap' in rv.data
+        assert 'Read the wiki' in rv.data
