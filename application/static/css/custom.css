@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+
+.extra {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.centered {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.wendy-font {
+  font-family: 'Fascinate', cursive;
+  text-align: center;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100;
+  margin: 0 auto -90px;
+}
+
+#push, #footer {
+  height: 90px;
+}
+
+#footer {
+  background: none;
+}

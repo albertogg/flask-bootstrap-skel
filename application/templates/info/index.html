@@ -1,6 +1,31 @@
 {% extends "base.html" %}
 {% block content %}
 
-  <h1>hi from index</h1>
+<div class="row">
+  <div class="span8">
+    <div class="centered">
+      <h1 class="wendy-font">Flask bootstrap project</h1>
+
+      <p class="lead">Start reading the wiki of the project; if you haven't!</p>
+      <a href="https://github.com/albertogg/flask-bootstrap/wiki" class="btn-large btn-success">Read the wiki!</a>
+    </div>
+    <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="span4">
+    <h4>base.html</h4>
+    <p>This template is the main layout. It calls the <strong>header, footer </strong>and renders the <strong>index</strong> file. It's located under <strong>'application/templates/base.html'</strong></p>
+    <h4>index.html</h4>
+    <p>Search and modify the Index file, located under <strong>'application/templates/info/index.html'</strong></p>
+  </div>
+  <div class="span4">
+    <h4>CSS / JS / IMG</h4>
+    <p>The stylesheets and javascript files are located in the <strong>'application/static/css' &amp 'application/static/js folders'</strong></p>
+    <h4>Sticky footer</h4>
+    <p>In the css folder I've added the code for a sticky footer!. Take a look on the <strong>custom.css</strong> file for details.</p>
+  </div>
+</div>
+
 
 {% endblock %}
