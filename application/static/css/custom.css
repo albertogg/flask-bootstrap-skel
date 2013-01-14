@@ -15,6 +15,7 @@ html, body {
 .fascinate-font {
   font-family: 'Fascinate', cursive;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #wrap {
