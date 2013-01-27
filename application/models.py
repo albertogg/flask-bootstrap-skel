@@ -1,7 +1,8 @@
 from application import db
 
 ##
-# Create your own models here and they will be imported automaticaly.
+# Create your own models here and they will be imported automaticaly. or
+# use a model per blueprint.
 
 ##
 # class User(db.Model):

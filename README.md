@@ -101,7 +101,5 @@ ToDo
 * Add support for db migrations.
 * Add support for multiple python versions.
 * Add a mock library for testing
-* Add a better template.
-* Add error pages.
 * support for many db's.
 * More...
