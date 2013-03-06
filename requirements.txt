@@ -1,11 +1,1 @@
-Fabric==1.5.1
-Flask==0.9
-Flask-SQLAlchemy==0.16
-Jinja2==2.6
-SQLAlchemy==0.7.9
-Werkzeug==0.8.3
-gunicorn==0.17.0
-paramiko==1.9.0
-psycopg2==2.4.5
-pycrypto==2.6
-wsgiref==0.1.2
+-r requirements/production.txt
