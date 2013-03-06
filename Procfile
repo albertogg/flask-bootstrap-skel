@@ -1,1 +1,1 @@
-web: gunicorn runserver:app -w 2
+web: fab grun
