@@ -75,6 +75,11 @@ To activate the production configuration; export the variable:
 $ export PRODUCTION_SETTINGS=/path/to/production.cfg
 ~~~
 
+For Heroku Production settings; export the variable like this.
+
+~~~ sh
+heroku config:add PRODUCTION_SETTINGS='application/production.cfg'
+~~~
 
 Changelog
 ---

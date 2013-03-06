@@ -10,7 +10,7 @@ def run():
 # start with unicorn server.
 def grun():
     """ Start with gunicorn server """
-    local('gunicorn -c gunicorn.conf runserver:app')
+    local('gunicorn -c gunicorn.py runserver:app')
 
 
 # run tests
