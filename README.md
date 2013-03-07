@@ -66,7 +66,7 @@ Add unittests to the manage_tests.py file and then start running the tests:
 $ fab tests
 ~~~
 
-Production.cfg
+Production Configuration
 ---
 
 To activate the production configuration; export the variable:
@@ -75,18 +75,36 @@ To activate the production configuration; export the variable:
 $ export PRODUCTION_SETTINGS=/path/to/production.py
 ~~~
 
-For Heroku with gunicorn and production settings. Export the variable like this.
+***For Heroku using gunicorn and production settings, do the following:***.
 
-**For Heroku Postgresql Database**
+**Heroku Postgresql Database** as primary,
 Check [heroku](https://devcenter.heroku.com/articles/heroku-postgresql#establish-primary-db).
 
 ~~~ sh
-heroku config:set PYTHONPATH='fakepath'
-heroku config:add PRODUCTION_SETTINGS='application/production.py'
+$ heroku config:set PYTHONPATH='fakepath'
+$ heroku config:add PRODUCTION_SETTINGS='application/production.py'
 ~~~
+
+Alembic Migrations
+---
+
+The flask-bootstrap skeleton now supports migrations using Alembic and Flask-SQLAlchemy. [Auto Generating Migrations](http://alembic.readthedocs.org/en/latest/tutorial.html#auto-generating-migrations) are working!
+
+~~~ sh
+$ alembic revision --autogenerate -m "Added users table"
+~~~
+
+Contribute
+---
+1. Fork the repository on Github.
+2. Send a pull request and don't forget to add yourself to the AUTHORS.md file.
 
 Changelog
 ---
+**v0.4.1 / 2013/03/07**
+  * Alembic Migrations.
+  * AUTHORS.md
+
 **v0.4 / 2013/03/07**
   * Heroku ready
   * requirements.
@@ -113,7 +131,6 @@ Changelog
 
 ToDo
 ---
-* Add support for db migrations.
 * Add support for multiple python versions.
 * Add a mock library for testing
 * support for many db's.
