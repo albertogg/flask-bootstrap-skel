@@ -78,8 +78,7 @@ $ export PRODUCTION_SETTINGS=/path/to/production.py
 For Heroku with gunicorn and production settings. Export the variable like this.
 
 **For Heroku Postgresql Database**
-Change the "HEROKU_POSTGRESQL" variable in the production.py file before
-exporting it. You need to create the database first. Here are the instructions from [heroku](https://devcenter.heroku.com/articles/heroku-postgresql).
+Check [heroku](https://devcenter.heroku.com/articles/heroku-postgresql#establish-primary-db).
 
 ~~~ sh
 heroku config:set PYTHONPATH='fakepath'
@@ -88,6 +87,12 @@ heroku config:add PRODUCTION_SETTINGS='application/production.py'
 
 Changelog
 ---
+**v0.4 / 2013/03/07**
+  * Heroku ready
+  * requirements.
+  * Error pages.
+  * bootstrap 2.3
+
 **v0.3 / 2013/01/06**
   * Python 2.6 support.
   * Shell script.
