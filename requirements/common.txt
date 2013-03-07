@@ -2,8 +2,11 @@ Fabric==1.5.1
 Flask==0.9
 Flask-SQLAlchemy==0.16
 Jinja2==2.6
+Mako==0.7.3
+MarkupSafe==0.15
 SQLAlchemy==0.7.9
 Werkzeug==0.8.3
+alembic==0.4.2
 paramiko==1.9.0
 pycrypto==2.6
 wsgiref==0.1.2
