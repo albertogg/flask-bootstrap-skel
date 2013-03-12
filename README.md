@@ -1,8 +1,22 @@
-Flask-Bootstrap
+Flask-Bootstrap-Skel
 ---
 
 Is a skeleton of a "Large" Flask application with Twitter bootstrap integration.
+
+### New project name
+
+Please update the remote URL
+
+~~~sh
+$ git remote set-url origin https://github.com/albertogg/flask-bootstrap-skel.git
+
+or 
+
+$ git remote set-url origin git@github.com:albertogg/flask-bootstrap-skel.git
+~~~
+
 ![Index pic](http://i.imgur.com/1NWEt.png "index")
+** index.html **
 
 Code Status
 ---
