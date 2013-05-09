@@ -145,6 +145,7 @@ Changelog
 
 ToDo
 ---
+* **Add Flask-Security Support**
 * Add support for multiple python versions.
 * Add a mock library for testing
 * support for many db's.
