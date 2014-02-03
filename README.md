@@ -35,7 +35,7 @@ Getting started
 Clone the repo to your computer in the desired folder:
 
 ~~~ sh
-$ git clone https://github.com/albertogg/flask-bootstrap.git
+$ git clone https://github.com/albertogg/flask-bootstrap-skel.git
 ~~~
 
 Use the requirements.txt to start dependencies in your virtualenv:
