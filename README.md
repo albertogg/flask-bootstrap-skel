@@ -69,7 +69,7 @@ $ fab shell
 >>> exit()
 ~~~
 
-***note: You must first create the database in Postgresql***
+***note: You must first create the database in Postgresql. From running this command on heroku, you will need to use heroku run "fab shell"***
 
 Unit testing
 ---
